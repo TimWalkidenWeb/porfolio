@@ -6,9 +6,8 @@ import skillpill from "../../img/skillpill.png"
 
 function Experience() {
     return (
-        <div id="experience" className="text-center mb-0 mb-md-5 font-weight-bold">
+        <div id="experience" className="text-center mb-0 mb-md-5">
             <h1 className="text-light">Experience</h1>
-
             <div className="experience-area experience mt-5">
                 <div className="container">
                     <div className="row mb-2">
@@ -16,13 +15,12 @@ function Experience() {
                             <div className="experience">
                                 <div className="exp-img">
                                     <img className="img-fluid" src={edgehiill}
-                                         alt="trainer-img"/>
-                                    <p className="text-light">
-                                        Class room assistant, helping to teach first/second year student learn HTML, CSS, Javascript and PHP.
-                                    </p>
-                                </div>
-                                <div className="exp-info">
-                                    <h3 className="red">Edge Hill University</h3>
+                                         alt="edgehill"/>
+                                    <div className="text-light pt-2">
+                                        <p>Class room assistant for first and second year students</p>
+                                        <hr className="mx-auto red-line"/>
+                                        <p className="font-weight-light font-weight-italic">HTML, PHP, Laravel, Javascript</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -30,13 +28,12 @@ function Experience() {
                             <div className="experience">
                                 <div className="exp-img">
                                     <img className="img-fluid" src={skillpill}
-                                         alt="trainer-img"/>
-                                    <p className="text-light">
-                                        Skill Pill is a fresh, modern approach to workplace learning. Frontend and backend development in Laravel
-                                    </p>
-                                </div>
-                                <div className="exp-info">
-                                    <h3 className="red">SkillPill</h3>
+                                         alt="skillpill"/>
+                                    <div className="text-light pt-2">
+                                        <p>Skill Pill is a fresh, modern approach to workplace learning.</p>
+                                        <hr className="mx-auto red-line"/>
+                                        <p className="font-weight-light font-weight-italic">PHP, Laravel</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -44,13 +41,12 @@ function Experience() {
                             <div className="experience">
                                 <div className="exp-img">
                                     <img className="img-fluid" src={etnnetwork}
-                                         alt="trainer-img"/>
-                                    <p className="text-light">
-                                        A cryptocurrency with huge, genuine usage via our real-world ecosystem. Backend development in Symfony.
-                                    </p>
-                                </div>
-                                <div className="exp-info">
-                                    <h3 className="red">ETN Network</h3>
+                                         alt="etn network"/>
+                                    <div className="text-light pt-2">
+                                        <p>A cryptocurrency with huge, genuine usage via our real-world ecosystem.</p>
+                                        <hr className="mx-auto red-line"/>
+                                        <p className="font-weight-light font-weight-italic">Symfony, MySQL, Unit Testing</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -58,13 +54,12 @@ function Experience() {
                             <div className="experience">
                                 <div className="exp-img">
                                     <img className="img-fluid" src={anytask}
-                                         alt="trainer-img"/>
-                                    <p className="text-light">
-                                        Freelance website where sellers get paid in ETN. Frontend and backend development in Symfony and Vue.
-                                    </p>
-                                </div>
-                                <div className="exp-info">
-                                    <h3 className="red">AnyTask Platform</h3>
+                                         alt="anytask"/>
+                                    <div className="text-light pt-2">
+                                        <p>Freelance website where sellers get paid in ETN.</p>
+                                        <hr className="mx-auto red-line"/>
+                                        <p className="font-weight-light font-weight-italic">Symfony, Vue, Unit/Functional testing</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

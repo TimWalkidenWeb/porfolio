@@ -64,7 +64,7 @@ code {
   position: relative;
 }
 .experience-area .experience .exp-img:before {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.9);
   content: "";
   position: absolute;
   width: 100%;
@@ -90,25 +90,7 @@ code {
   border-top-right-radius: 6px;
 }
 
-.experience-area .experience .exp-info {
-  text-align: center;
-  padding: 30px 0;
-}
-.experience-area .experience .exp-info h3 {
-  font-size: 20px;
-  line-height: 20px;
-  margin-bottom: 5px;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  text-transform: capitalize;
-}
-.experience-area .experience .exp-info p {
-  font-size: 15px;
-  margin-bottom: 0;
-}
-
-.experience-area .experience .exp-img p {
+.experience-area .experience .exp-img div {
   position: absolute;
   display: inline-block;
   top: 10%;
@@ -119,12 +101,12 @@ code {
   font-size: 18px;
 }
 
-.experience-area .experience .exp-img:hover p {
+.experience-area .experience .exp-img:hover div {
   /*left: 35%;*/
   opacity: 1;
   z-index: 9;
 }
-.experience-area .experience .exp-img:hover p:before {
+.experience-area .experience .exp-img:hover div:before {
   opacity: 1;
 }
 
@@ -152,4 +134,19 @@ code {
   display: inline-block;
   width: 100% !important;
   text-align: center;
+}
+
+.icon-ft {
+  font-size: 2rem;
+  display: inline-block;
+  width: 100% !important;
+  text-align: center;
+}
+
+.font-weight-italic {
+  font-style: italic;
+}
+
+.company-img {
+  max-width: 270px;
 }

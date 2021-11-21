@@ -1,8 +1,16 @@
 import React from "react";
+import background from "../../img/background.svg"
 
 function Header() {
     return (
-      <div id="header" className="d-flex align-items-center justify-content-center">
+      <div id="header" className="d-flex align-items-center justify-content-center"
+           style={{
+               backgroundImage: "url(" + background + ")",
+               backgroundPosition: 'center',
+               backgroundSize: 'cover',
+               backgroundRepeat: 'no-repeat'
+           }}
+      >
           <div className="py-5 px-4 content mx-auto" >
               <span className="mb-1 d-flex red">Hi, my name is</span>
               <h1 className="font-weight-bold text-light">Tim Walkiden, full stack developer</h1>
