@@ -17,7 +17,7 @@ function Experience() {
                                     <img className="img-fluid" src={edgehiill}
                                          alt="edgehill"/>
                                     <div className="text-light pt-2">
-                                        <p>Class room assistant for first and second year students</p>
+                                        <p>Classroom assistant for first and second-year students.</p>
                                         <hr className="mx-auto red-line"/>
                                         <p className="font-weight-light font-weight-italic">HTML, PHP, Laravel, Javascript</p>
                                     </div>
@@ -56,7 +56,7 @@ function Experience() {
                                     <img className="img-fluid" src={anytask}
                                          alt="anytask"/>
                                     <div className="text-light pt-2">
-                                        <p>Freelance website where sellers get paid in ETN.</p>
+                                        <p>A freelance website where sellers get paid in ETN.</p>
                                         <hr className="mx-auto red-line"/>
                                         <p className="font-weight-light font-weight-italic">Symfony, Vue, Unit/Functional testing</p>
                                     </div>

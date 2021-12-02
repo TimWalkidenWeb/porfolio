@@ -25,7 +25,7 @@ function Footer() {
                     Copy right Timothy Walkiden 2021
                 </p>
                 <p className="red font-weight-light grey font-weight-italic">
-                    Created using react.js
+                    Created using React.js
                 </p>
             </div>
         </div>
