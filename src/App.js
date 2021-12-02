@@ -4,6 +4,7 @@ import Experience from "./js/components/experience";
 import Skills from "./js/components/skills";
 import Companies from "./js/components/companies"
 import Footer from "./js/components/footer";
+import React from "react"
 
 function App() {
   return (
